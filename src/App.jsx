@@ -11,8 +11,7 @@ const App = () => {
     <div 
       className="min-h-screen bg-cover bg-center bg-no-repeat bg-fixed text-white"
       style={{ 
-        backgroundImage: `url('/src/assets/background2.png')`,
-        backgroundColor: '#B0936C' 
+        backgroundImage: `url('/src/assets/background2.png')`, 
       }}
     >
       <Navbar />
