@@ -42,7 +42,7 @@ const ResultCard = ({ item }) => {
                     }}
                     className={`px-5 py-2 rounded-full text-xs font-bold shadow-md active:scale-95 transition-all duration-200 shrink-0 ${
                         isSaved
-                            ? 'bg-rose-900 text-rose-100 border border-rose-700/50 hover:bg-rose-950'
+                            ? ' text-amber-950 bg-rose-50 hover:bg-rose-100 hover:text-amber-950'
                             : 'bg-gradient-to-r from-[#B9A175] to-[#B0936C] text-amber-950 hover:brightness-105 shadow-amber-900/10'
                     }`}
                 >

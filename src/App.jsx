@@ -5,13 +5,14 @@ import HomePage from './pages/HomePage'
 import Navbar from './components/Navbar'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import bgImage from './assets/background2.png'
 
 const App = () => {
   return (
     <div 
       className="min-h-screen bg-cover bg-center bg-no-repeat bg-fixed text-white"
       style={{ 
-        backgroundImage: `url('/src/assets/background2.png')`, 
+        backgroundImage: `url(${bgImage})`, 
       }}
     >
       <Navbar />
